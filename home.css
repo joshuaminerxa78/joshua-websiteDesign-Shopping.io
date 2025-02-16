@@ -1,0 +1,375 @@
+body{
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#main{
+    margin: auto;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-attachment: scroll;
+}
+
+.menu{
+    margin: auto;
+    text-align: center;
+    float: left;
+    font-size: 1.5rem; 
+    padding: 2%;
+}
+
+.menu:hover{
+    color: orangered;
+    border-bottom: orangered 1px ;
+    text-decoration-line: underline ;
+    border-bottom: 3%;
+}
+
+#box{
+    margin: auto;
+    margin-left: 35%;
+    float: left;
+    text-align: center;
+    margin-top: -3.0%;
+    width: 45%;
+}
+
+#logo{
+    margin-top: 2%;
+    margin: auto;
+    padding-left: 6%;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+span{
+    color: orangered;
+}
+
+#iconshop{
+    margin: auto;
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 1.2%;
+}
+
+.icononline{
+    width: 5%;
+    padding: 1%;
+}
+
+.icononline:hover{
+    background: orangered;
+}
+
+#main2{
+    background-image: url(medium-shot-business-women-high-five.jpeg) ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    filter: grayscale(50%);
+    background-size: 100%;
+    color: white;
+    margin: auto;
+    margin-top: -1%;
+}
+
+#text{
+    margin: auto;
+    padding-top: 16%;
+    padding-bottom: 9%;
+    padding-left: 9%;
+}
+
+#size1{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+#sence{
+    font-size: 1.6rem;
+    width: 43%;
+    margin-top: -5%;
+}
+
+#button{
+    background-color: black;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 2%;
+    border: 1px solid black;
+    border-radius: 13%;
+}
+
+#button:hover{
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+#textpicbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    column-gap: 1%;
+    width: 100%;
+
+}
+
+#list{
+    grid-row: 1;
+    grid-column: 1;
+    margin: auto;
+    font-size: 1.3rem;
+    border-left: black 1px solid;
+    padding-left: 2%;
+    margin-left: 41%;
+
+}
+
+#list:hover{
+    border-left: orangered 1px solid;
+}
+
+
+.show:hover{
+    color: orangered;
+    padding-bottom: 2%; 
+}
+
+#pic{
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url(pim-chu-z6NZ76_UTDI-unsplash.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#textbig{
+    grid-row: 1;
+    grid-column: 3;
+    font-size: 1rem;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+#topicbig{
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    font-weight: bolder;
+}
+
+#topic1{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    padding-right: 5%;
+}
+
+#text3{
+    font-weight: bolder;
+    margin-top: -5%;
+    font-size: 1.7rem;
+}
+
+#org{
+    color: grey;
+    font-size: 1rem;
+}
+
+#org:hover{
+    color: orangered;
+}
+
+#w{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    margin: auto;
+    margin-top: 2%;
+    height: 50%;
+    width: 100%;
+
+}
+
+#pic2{
+    background-image: url(retail-shop-owner-mask-social-distancing-shopping.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#text1{
+    padding-top:16%;
+    padding-left: 2%;
+    margin-bottom: 17.2%;
+    grid-row: 1;
+    grid-column: 2;
+width: 100%;
+height: 68%;
+background-color: whitesmoke;
+font-size: 1.7rem;
+}
+
+#topic2{
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+
+#picbox1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    width: 100%;
+    margin-left:2% ;
+    margin-bottom: -45%;
+}
+
+#main5{
+    padding-right: 15%;
+    
+}
+
+#pic0{
+    grid-row: 1;
+    grid-column: 1;
+    background-image: url(evan-mcdougall-qnh1odlqOmk-unsplash.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 45%;
+    padding-bottom: 100%;
+}
+
+#pic3{
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url(jordan-nix-CkCUvwMXAac-unsplash.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 45%;
+    padding-bottom: 100%;
+}
+
+#pic4{
+    grid-row: 1;
+    grid-column: 3;
+    background-image: url(nature-zen-3Dn1BZZv3m8-unsplash.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 45%;
+    padding-bottom: 100%;
+
+}
+
+#icon1{
+    margin-left: 3%;
+    background-color: whitesmoke;
+    width: fit-content;
+}
+
+#icon2{
+    padding-left: 75%;
+    margin-top: -19%;
+    width: 10%;
+    height: 10%;
+}
+
+#icon3{
+    margin-left: 3%;
+    margin-top: 87%;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#icon4{
+    padding-left: 87%;
+    margin-top: -29%;
+    font-size: 1.5rem;
+    color: grey;
+}
+
+#icon5{
+    margin-top: -5%;
+    color: grey;
+}
+
+#topicbig1{
+    margin: auto;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    font-weight: bolder;
+}
+
+
+#main6{
+    margin: auto;
+    background-color: black;
+    color: white;
+    width: 118%;
+    margin-top:16%;
+    padding-bottom: 5%;
+}
+
+#box4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 10%;
+    padding-top: 7%;
+}
+
+#text2{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#box1{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.textmov{
+    margin-left: 45%;
+    font-size: 1.5rem;
+}
+
+#textmov1{
+    margin-top: -37%;
+}
+
+#box2{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.logoicon{
+    width: 7%;
+    padding-left: 1%;
+    background-color: white;
+}
+
+.logoicon:hover{
+    background: orangered;
+}
+
+.maintopice{
+    font-size: 2rem;
+}
+
+.sizesamll{
+    font-size: 1.5rem;
+}
+
+#bold{
+    color: white;
+}
+
+#bold:hover{
+    color: orangered;
+}
